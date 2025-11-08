@@ -3,9 +3,9 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "TITRE"
+name = "ML_PM"
 version = "0.1.0"
-description = "From speech to markets"
+description = "v1"
 authors = [
   { name = "Alexis Dantzikian", email = "alexis.dantzikian@ensae.fr" },
   { name = "Antonin Devalland", email = "andevalland@gmail.com" }

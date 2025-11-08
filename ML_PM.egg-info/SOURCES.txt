@@ -1,8 +1,8 @@
 pyproject.toml
-TITRE.egg-info/PKG-INFO
-TITRE.egg-info/SOURCES.txt
-TITRE.egg-info/dependency_links.txt
-TITRE.egg-info/top_level.txt
+ML_PM.egg-info/PKG-INFO
+ML_PM.egg-info/SOURCES.txt
+ML_PM.egg-info/dependency_links.txt
+ML_PM.egg-info/top_level.txt
 skfin/__init__.py
 skfin/backtesting.py
 skfin/backtesting_with_cost.py
