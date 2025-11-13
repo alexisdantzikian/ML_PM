@@ -3,7 +3,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from skfin.metrics import sharpe_ratio
 
-plt.style.use("seaborn-whitegrid")
+plt.style.use("seaborn-v0_8-whitegrid")
 
 
 def set_axis(ax=None, figsize=(8, 5), title=None, fig=None):
