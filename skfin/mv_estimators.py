@@ -143,25 +143,3 @@ class Mbj(TransformerMixin):
         return X.dot(self.coef_)
 
 
-class TimingMeanVariance(BaseEstimator):
-    def __init__(self, transform_V=None, a_min=None, a_max=None):
-        if transform_V is None:
-            self.transform_V = lambda x: np.var(x)
-        else:
-            self.transform_V = transform_V
-        self.a_min = a_min
-        self.a_max = a_max
-
-    def fit(self, X, y=None):
-        self.V_ = self.transform_V(y)
-
-    def predict(self, X):
-        if (self.a_min is None) & (self.a_max is None):
-            h = X / self.V_
-        else:
-            h = np.clip(
-                X / np.sqrt(self.V_), a_min=self.a_min, a_max=self.a_max
-            ) / np.sqrt(self.V_)
-
-
-        return h

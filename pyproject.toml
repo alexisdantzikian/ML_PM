@@ -7,8 +7,7 @@ name = "ML_PM"
 version = "0.1.0"
 description = "v1"
 authors = [
-  { name = "Alexis Dantzikian", email = "alexis.dantzikian@ensae.fr" },
-  { name = "Antonin Devalland", email = "andevalland@gmail.com" }
+  { name = "Alexis Dantzikian", email = "alexis.dantzikian@gmail.com" }
 ]
 
 [tool.setuptools.packages.find]
