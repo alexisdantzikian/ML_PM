@@ -31,23 +31,13 @@ The `skfin` library is derived from the **Machine Learning for Portfolio Managem
 - Python 3.13
 - macOS (tested) / Linux
 
-### Quick Installation
+### Installation
 
 ```bash
 # Clone the repository
 git clone <repository-url>
 cd "ML for PM"
 
-# Create virtual environment and install dependencies
-./create_env.sh
-
-# Activate the environment
-source .venv/bin/activate
-```
-
-### Manual Installation
-
-```bash
 # Create a virtual environment
 python3.13 -m venv .venv
 source .venv/bin/activate
