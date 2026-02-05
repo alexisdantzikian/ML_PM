@@ -68,8 +68,7 @@ ML for PM/
 │   └── main.ipynb
 ├── data/                       # Data (Fama-French, etc.)
 ├── requirements.txt
-├── pyproject.toml
-└── create_env.sh               # Environment creation script
+└── pyproject.toml
 ```
 
 ## Main Notebook (`nbs/main.ipynb`)
@@ -176,6 +175,7 @@ heatmap(returns.corr())
 ## Authors
 
 - **Alexis Dantzikian** - [alexis.dantzikian@gmail.com](mailto:alexis.dantzikian@gmail.com)
+- **Antonin Devalland**
 
 ## License
 
