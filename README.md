@@ -1,6 +1,6 @@
-# ML for PM - Machine Learning for Portfolio Management
+# Macro Factor Timing
 
-[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/release/python-3130/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Python library for portfolio optimization and investment strategy backtesting using Machine Learning.
@@ -28,7 +28,7 @@ The `skfin` library is derived from the **Machine Learning for Portfolio Managem
 
 ### Prerequisites
 
-- Python 3.9
+- Python 3.13
 - macOS (tested) / Linux
 
 ### Quick Installation
@@ -49,7 +49,7 @@ source .venv/bin/activate
 
 ```bash
 # Create a virtual environment
-python3.9 -m venv .venv
+python3.13 -m venv .venv
 source .venv/bin/activate
 
 # Install dependencies
@@ -185,7 +185,7 @@ heatmap(returns.corr())
 
 ## Authors
 
-- **Alexis Dantzikian** - [alexis.dantzikian@ensae.fr](mailto:alexis.dantzikian@ensae.fr)
+- **Alexis Dantzikian** - [alexis.dantzikian@gmail.com](mailto:alexis.dantzikian@gmail.com)
 
 ## License
 
